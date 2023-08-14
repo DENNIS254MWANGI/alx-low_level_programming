@@ -5,7 +5,6 @@
 /**
  * main - Prints all single digit numbers of
  * base 16 starting from 0
- *
  * Return: Always (Success)
  */
 
