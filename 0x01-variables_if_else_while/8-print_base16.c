@@ -14,11 +14,10 @@ char c;
 
 for (c = '0'; c <= '15'; c++)
 {
-{
 putchar(c);
-}
 }
 
 putchar('\n');
 
 return (0);
+}
