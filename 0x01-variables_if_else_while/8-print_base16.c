@@ -4,7 +4,7 @@
 
 /**
  * main - Prints all single digit numbers of
- * base 16 starting from 0
+ * base 9 starting from 0 and A to F
  * Return: Always (Success)
  */
 
@@ -12,7 +12,11 @@ int main(void)
 {
 char c;
 
-for (c = '0'; c <= '15'; c++)
+for (c = '0'; c <= '9'; c++)
+{
+putchar(c);
+}
+for (c = 'A'; c <= 'F'; c++)
 {
 putchar(c);
 }
