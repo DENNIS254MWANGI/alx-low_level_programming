@@ -4,7 +4,7 @@
 /**
  * main - prints _putchar
  *
- * Description: This function prints "_putchar" followed by a new line
+ * print_putchar : This function prints _putchar followed by a new line
  * and returns 0 to indicate successful execution.
  *
  * return : always return 0(Success)
@@ -12,7 +12,6 @@
  */
 int print_putchar(void)
 {
-
 putchar('_');
 putchar('p');
 putchar('u');
