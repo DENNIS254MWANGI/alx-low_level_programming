@@ -1,8 +1,12 @@
 #include <stdio.h>
+
 /**
  * main - prints _putchar
  *
- * return : always 0
+ * Description: This function prints "_putchar" followed by a new line
+ * and returns 0 to indicate successful execution.
+ *
+ * return : always return 0(Success)
  *
  */
 int main(void)
