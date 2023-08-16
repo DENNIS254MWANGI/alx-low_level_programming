@@ -1,25 +1,23 @@
-#include <stdio.h>
-#include "main.h"
+#include "goodmorning.h"
 
 /**
- * main - prints _putchar
- *
- * print_putchar : This function prints _putchar followed by a new line
- * and returns 0 to indicate successful execution.
- *
- * return : always return 0(Success)
- *
- */
-int print_putchar(void)
+  * main - Entry point
+  *
+  * Return: Always 0
+  */
+int main(void)
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
-return (0);
+	_putchar('g');
+	_putchar('o');
+	_putchar('o');
+	_putchar('d');
+	_putchar('m');
+	_putchar('o');
+	_putchar('r');
+	_putchar('i');
+	_putchar('n');
+	_putchar('g');
+	_putchar('\n');
+
+	return (0);
 }
