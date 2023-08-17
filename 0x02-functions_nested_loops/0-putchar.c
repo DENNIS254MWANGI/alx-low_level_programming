@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -11,7 +11,6 @@
  * @c: The character to be written
  *
  */
-int _putchar(char c);
 
 int main(void)
 {
@@ -26,15 +25,4 @@ _putchar('r');
 _putchar('\n');
 
 return (0);
-}
-
-/**
- * _putchar - Writes a character to the standard output (stdout)
- * @c: The character to be written
- *
- * Return: On success, 1 is returned. On error, -1 is returned.
- */
-int _putchar(char c)
-{
-return (write(1, &c, 1));
 }
