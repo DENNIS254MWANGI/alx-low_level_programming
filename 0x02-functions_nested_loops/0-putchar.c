@@ -7,9 +7,6 @@
  * using the _putchar function.
  *
  * Return: Always 0 (Success)
- *
- * @c: The character to be written
- *
  */
 
 int main(void)
