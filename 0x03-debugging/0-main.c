@@ -11,9 +11,23 @@ void positive_or_negative(int a)
 {
 	int a;
 
-	a = 0;
+	srand(time(0));
 
-	if (a <= '0')
-		_putchar(a);
-	return (0);
+	a = rand() - RAND_MAX / 2;
+
+	if (a > 0)
+
+	{
+		printf("%d is positive\n", a);
+	}
+	else if (a == 0)
+	{
+		printf("%d is zero\n", a);
+	}
+	else
+	{
+		printf("%d is negative\n", a);
+	}
+
+
 }
