@@ -13,6 +13,7 @@ void positive_or_negative(int a)
 
 	a = 0;
 
-	positive_or_negative(a);
+	if (a <= '0')
+		_putchar(a);
 	return (0);
 }
