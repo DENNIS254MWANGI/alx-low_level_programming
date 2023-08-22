@@ -17,7 +17,7 @@ void print_rev(char *s)
 
 	while (s[a] != '\0')
 	{
-		a++
+		a++;
 	}
 	c = a;
 
