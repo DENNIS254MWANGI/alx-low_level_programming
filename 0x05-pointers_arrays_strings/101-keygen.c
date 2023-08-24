@@ -11,21 +11,21 @@
 
 int main(void)
 {
-	int numb[50];
+	int numb[100];
 	int a, b, total;
 
 	total = 0;
 
 	srand(time(NULL));
 
-	for (a = 0; a < 50; a++)
+	for (a = 0; a < 100; a++)
 	{
-		numb[a] = rand() % 32;
+		numb[a] = rand() % 78;
 		total += (numb[a] + '0');
 		putchar(numb[a] + '0');
-		if ((1000 - total) - '0' < 32)
+		if ((2772 - total) - '0' < 78)
 		{
-			b = 1000 - total - '0';
+			b = 2772 - total - '0';
 			total += b;
 			putchar(b + '0');
 			break;
