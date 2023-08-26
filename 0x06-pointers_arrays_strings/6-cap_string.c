@@ -8,15 +8,15 @@
 
 char *cap_string(char *str)
 {
-	int a, b;
-	int sts;
+	int a = 0, b = 0;
+	int sts = 0;
 	char all_s[] = ",;.!?(){}\n\t\" ";
 
-	for (a = 0, sts = 0; str[a] != '\0'; a++)
+	while (str[a] != '\0';)
 	{
 		if (str[0] > 96 && str[0] < 123)
 			sts = 1;
-		for (b = 0; all_s[b] != '\0'; b++)
+		while (all_s[b] != '\0';)
 		{
 			if (all_s[b] == str[a])
 				sts = 1;
@@ -33,6 +33,8 @@ char *cap_string(char *str)
 				sts = 0;
 			else if (str[a] > 47 && str[a] < 58)
 				sts = 0;
+		a++;
+		b++;
 		}
 	}
 	return (str);
