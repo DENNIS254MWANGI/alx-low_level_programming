@@ -13,7 +13,10 @@ char *string_toupper(char *str)
 	while (str[a] != '\0')
 	{
 
-		str[a] = toupper(str[a]);
+		if (str[a] > 0 && str[a] < 10)
+		{
+			str[a] -= 10;
+		}
 
 		a++;
 	}
