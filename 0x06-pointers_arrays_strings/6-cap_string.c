@@ -9,19 +9,20 @@
 char *cap_string(char *str)
 {
 	int a = 0, b = 0;
-	int sts = 0;
+	int sts;
 	char all_s[] = ",;.!?(){}\n\t\" ";
 
 	while (str[a] != '\0';)
 	{
 		if (str[0] > 96 && str[0] < 123)
 			sts = 1;
-		a++;
+			sts = 0;
+			a++;
 		while (all_s[b] != '\0';)
 		{
 			if (all_s[b] == str[a])
 				sts = 1;
-			b++;
+				b++;
 		}
 
 		if (sts)
