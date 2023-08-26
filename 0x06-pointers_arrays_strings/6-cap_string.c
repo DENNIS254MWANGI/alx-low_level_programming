@@ -16,10 +16,12 @@ char *cap_string(char *str)
 	{
 		if (str[0] > 96 && str[0] < 123)
 			sts = 1;
+		a++;
 		while (all_s[b] != '\0';)
 		{
 			if (all_s[b] == str[a])
 				sts = 1;
+			b++;
 		}
 
 		if (sts)
@@ -33,8 +35,6 @@ char *cap_string(char *str)
 				sts = 0;
 			else if (str[a] > 47 && str[a] < 58)
 				sts = 0;
-		a++;
-		b++;
 		}
 	}
 	return (str);
