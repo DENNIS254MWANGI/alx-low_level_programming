@@ -17,22 +17,22 @@ char *leet(char *str)
 			str[a] = '4';
 		}
 
-		if (str[a] == 'e' || str[a] == 'E')
+		while (str[a] == 'e' || str[a] == 'E')
 		{
 			str[a] = '3';
 		}
 
-		if (str[a] == 'o' || str[a] == 'O')
+		while (str[a] == 'o' || str[a] == 'O')
 		{
 			str[a] = '0';
 		}
 
-		if (str[a] == 't' || str[a] == 'T')
+		while (str[a] == 't' || str[a] == 'T')
 		{
 			str[a] = '7';
 		}
 
-		if (str[a] == 'l' || str[a] == 'L')
+		while (str[a] == 'l' || str[a] == 'L')
 		{
 			str[a] = '1';
 		}
