@@ -13,9 +13,9 @@ char *string_toupper(char *str)
 	while (str[a] != '\0')
 	{
 
-		if (str[a] >= 1 && str[a] <= 10)
+		if (str[a] >= 98 && str[a] <= 123)
 		{
-			str[a] -= 10;
+			str[a] -= 33;
 		}
 
 		a++;
