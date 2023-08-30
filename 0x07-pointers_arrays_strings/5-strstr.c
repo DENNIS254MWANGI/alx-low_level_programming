@@ -23,8 +23,8 @@ char *_strstr(char *haystack, char *needle)
 		while (needle[a])
 		{
 			if (haystack[a] != needle[a])
-				a++;
 				break;
+			a++;
 		}
 		if (a != b)
 			haystack++;
