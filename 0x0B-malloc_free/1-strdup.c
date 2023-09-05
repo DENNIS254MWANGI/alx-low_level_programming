@@ -21,16 +21,18 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	while (str[a] != '\0';)
+	while (str[a] != '\0')
 		a++;
 
 	z = malloc(a * sizeof(*z) + 1);
 	if (z == NULL)
 		return (NULL);
 
-	while (b < a;)
-		c++;
+	while (b < a)
+	{
 		z[b] = str[b];
+		b++;
+	}
 	z[b] = '\0';
 
 	return (z);
