@@ -3,7 +3,10 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for ALX School students.
+ * argstostr - function that concatenates all
+ * the arguments of your program.
+ * @ac: string
+ * @av: pointer reffering string address
  *
  * Return: Always 0.
  */
